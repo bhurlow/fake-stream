@@ -9,7 +9,7 @@ function fakeUser() {
     ip: Faker.Internet.ip(),
     company: Faker.Company.companyName()
   }
-  return JSON.stringify(o)
+  return (JSON.stringify(o) + '\n')
 }
 
 module.exports = function(speed) {

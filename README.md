@@ -13,7 +13,12 @@ fakestream.pipe(process.stdout)
 
 ### fakestream(speed?)
 
+speed is optional
+
 speed defaults to `500` ms
+
+outputs new-line delimited JSON strings
+
 
 
 ### to install
