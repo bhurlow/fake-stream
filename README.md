@@ -4,7 +4,7 @@ fake-stream
 ### pipe some fake users up in here:
 
 ```
-var fakestream = require('fake-stream')(500)
+var fakestream = require('fakestream')(500)
 fakestream.pipe(process.stdout)
 ```
 
@@ -24,7 +24,7 @@ outputs new-line delimited JSON strings
 ### to install
 ---
 ```
-npm install fake-stream
+npm install fakestream
 ```
 
 

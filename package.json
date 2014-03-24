@@ -1,5 +1,5 @@
 {
-  "name": "fake-stream",
+  "name": "fakestream",
   "version": "0.0.1",
   "description": "readable stream of fake data",
   "main": "index.js",
