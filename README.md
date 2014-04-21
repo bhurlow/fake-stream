@@ -5,19 +5,16 @@ fake-stream
 
 ```
 var fakestream = require('fakestream')(500)
-fakestream.pipe(process.stdout)
+fakestream.pipe(somewhere)
 ```
 
-###usage
----
-
-### fakestream(speed?)
+### fakestream(speed?, objects?)
 
 speed is optional
 
-speed defaults to `500` ms
+speed defaults to `500` ms and JSON strings
 
-outputs new-line delimited JSON strings
+emits js objects if passed additional `objects` boolean
 
 
 
